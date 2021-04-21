@@ -114,7 +114,14 @@
             <maven-resource group="org.jboss.resteasy" artifact="resteasy-rxjava2"/>
             <maven-resource group="io.reactivex.rxjava2" artifact="rxjava"/>
         </module-def>
-    	
+
+        <module-def name="org.jboss.resteasy.resteasy-context-propagation">
+            <maven-resource group="org.jboss.resteasy" artifact="resteasy-context-propagation"/>
+            <maven-resource group="io.smallrye" artifact="smallrye-context-propagation"/>
+            <maven-resource group="io.smallrye" artifact="smallrye-context-propagation-api"/>
+            <maven-resource group="org.eclipse.microprofile.context-propagation" artifact="microprofile-context-propagation-api"/>
+        </module-def>
+	
         <module-def name="com.github.fge.jackson-coreutils">
             <maven-resource group="com.github.fge" artifact="jackson-coreutils"/>
             <maven-resource group="com.github.fge" artifact="msg-simple"/>
